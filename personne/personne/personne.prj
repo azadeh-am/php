@@ -1,0 +1,380 @@
+format 222
+"personne"
+  revision 1
+  modified_by 2 "azadeh"
+
+
+  
+  // class settings
+  default_attribute_visibility private default_relation_visibility private default_operation_visibility public
+  
+  classdiagramsettings draw_all_relations yes hide_attributes no hide_operations no hide_getset_operations no hide_ports no show_members_full_definition no show_members_visibility no show_members_stereotype no show_members_context no show_members_multiplicity no show_members_initialization no show_attribute_modifiers no member_max_width 127 show_parameter_dir yes show_parameter_name yes package_name_in_tab no class_drawing_mode natural drawing_language uml show_context_mode no auto_label_position yes show_relation_modifiers no show_relation_visibility no show_infonote no shadow yes gradient none show_stereotype_properties no end
+  
+  classcompositediagramsettings auto_label_position yes draw_all_relations yes shadow yes gradient none end
+  
+  usecasediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes class_drawing_mode actor shadow yes gradient none show_stereotype_properties no end
+  
+  sequencediagramsettings show_full_operations_definition no show_class_of_operation no write_horizontally yes instances_drawing_mode natural drawing_language uml draw_all_relations yes shadow yes gradient none show_stereotype_properties no show_class_context_mode no show_msg_context_mode no end
+  
+  collaborationdiagramsettings show_full_operations_definition no show_class_of_operation no show_hierarchical_rank no write_horizontally yes instances_drawing_mode natural drawing_language uml package_name_in_tab no show_class_pack_context_mode no show_msg_context_mode no draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectdiagramsettings write_horizontally yes package_name_in_tab no show_class_pack_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectcompositediagramsettings auto_label_position yes draw_all_relations yes shadow yes gradient none end
+  
+  componentdiagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  deploymentdiagramsettings package_name_in_tab no show_context_mode no write_horizontally yes auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  statediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes write_label_horizontally yes show_trans_definition no draw_all_relations yes shadow yes gradient none
+   show_activities yes region_horizontally yes drawing_language uml show_stereotype_properties no end
+  
+  activitydiagramsettings package_name_in_tab no show_context_mode no show_opaque_action_definition no auto_label_position yes write_label_horizontally no draw_all_relations yes shadow yes gradient none
+   show_infonote yes drawing_language uml show_stereotype_properties no end
+  
+  class_color yellow duration_color transparent continuation_color gray note_color blue fragment_color transparent subject_color transparent usecase_color yellow package_color transparent component_color green artifact_color green deploymentnode_color gray state_color yellow stateaction_color transparent activity_color transparent activityregion_color transparent activitypartition_color transparent activityaction_color transparent parameterpin_color white generalization_color black 
+  dpi 72
+  font_size 10
+  diagram_format A4
+
+  image_root_dir ""
+
+
+  mark_for_import
+  
+  classview 128130 "Diagramme"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    classdiagram 128130 "Diagramme"
+      classdiagramsettings draw_all_relations no member_max_width 0 end
+      size A4
+    end
+
+    class 128130 "personne"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl "${comment}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128130 "nom"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl "  ${comment}${visibility}${const}${static}${var}${name}${value};
+"
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128258 "prenom"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl "  ${comment}${visibility}${const}${static}${var}${name}${value};
+"
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128386 "age"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl "  ${comment}${visibility}${const}${static}${var}${name}${value};
+"
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 128130 "afficher"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 128258 "setNom"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 128386 "setPrenom"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 128514 "setAge"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 128642 "getNom"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 128770 "getPrenpm"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 128898 "getAge"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+    end
+
+    class 128258 "Majeur"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl "${comment}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128514 "vote"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl "  ${comment}${visibility}${const}${static}${var}${name}${value};
+"
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 129026 "afficher"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 129154 "setVote"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      operation 129282 "getVote"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      classrelation 128130 // <generalisation>
+	relation 128130 ---|>
+	  a public
+	    php "${type}"
+	    classrelation_ref 128130 // <generalisation>
+	  b parent class_ref 128386 // Mineur
+      end
+
+      classrelation 128258 // <realization>
+	relation 128258 -_-|>
+	  a public
+	    php "${type}"
+	    classrelation_ref 128258 // <realization>
+	  b parent class_ref 128130 // personne
+      end
+    end
+
+    class 128386 "Mineur"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl "${comment}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128642 "classe"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl "  ${comment}${visibility}${const}${static}${var}${name}${value};
+"
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 129410 "afficher"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	php_def "  ${comment}${final}${visibility}${abstract}${static}function ${name}${(}${)}${type}
+{
+  ${body}}
+"
+	
+	
+      end
+
+      classrelation 128386 // <realization>
+	relation 128386 -_-|>
+	  a public
+	    php "${type}"
+	    classrelation_ref 128386 // <realization>
+	  b parent class_ref 128130 // personne
+      end
+    end
+
+    class 128514 "enfent"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl "${comment}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 128514 // <generalisation>
+	relation 128514 ---|>
+	  a public
+	    php "${type}"
+	    classrelation_ref 128514 // <generalisation>
+	  b parent class_ref 128386 // Mineur
+      end
+    end
+
+    class 128642 "Ado"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl "${comment}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 128642 // <generalisation>
+	relation 128642 ---|>
+	  a public
+	    php "${type}"
+	    classrelation_ref 128642 // <generalisation>
+	  b parent class_ref 128386 // Mineur
+      end
+    end
+  end
+end

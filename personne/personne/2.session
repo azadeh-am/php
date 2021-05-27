@@ -1,0 +1,14 @@
+window_sizes 1350 765 172 1172 713 0
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 128130 // Diagramme
+    1011 682 100 A4 0 0
+end
+show_stereotypes
+selected operation_ref 129410 // afficher
+open
+  class_ref 128130 // personne
+  class_ref 128258 // Majeur
+  class_ref 128386 // Mineur
+end
+end
